@@ -1,0 +1,33 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:dx="clr-namespace:DevExpress.Maui.Core;assembly=DevExpress.Maui.Core"
+             x:Class="DXMaterialThemesApp.MainPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="palette" Clicked="Palette_Clicked"/>
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="24,0" Spacing="8">
+            <Label Style="{StaticResource PrimaryText}" Text="Get the most out of your mobile hardware and OS"/>
+            <Label Style="{StaticResource SecondaryText}" Text="DevExpress UI controls abstract the complexities of native mobile development and deliver unmatched performance, usability, and functionality."/>
+
+            <Label Style="{StaticResource SecondaryText}" Text=".NET MAUI default controls also look great with DevExpress themes."/>
+
+            <Slider Minimum="0" Maximum="100" Value="50" />
+
+            <HorizontalStackLayout Spacing="16" Padding="16">
+                <Switch IsToggled="True" />
+                <Switch IsToggled="True" IsEnabled="False"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="16" Padding="16">
+                <CheckBox IsChecked="True" />
+                <CheckBox IsChecked="True" IsEnabled="False" />
+            </HorizontalStackLayout>
+
+            <Button Margin="25,20,25,20" Text="Standard Button"/>
+            <Button Margin="25,20,25,20" Text="Standard Disabled Button" IsEnabled="False"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
