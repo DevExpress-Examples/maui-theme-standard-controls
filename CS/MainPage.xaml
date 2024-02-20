@@ -8,7 +8,7 @@
     </ContentPage.ToolbarItems>
 
     <ScrollView>
-        <VerticalStackLayout Padding="24,0" Spacing="8">
+        <dx:DXStackLayout Orientation="Vertical" Padding="24,0" ItemSpacing="8">
             <Label Style="{StaticResource PrimaryText}" Text="Get the most out of your mobile hardware and OS"/>
             <Label Style="{StaticResource SecondaryText}" Text="DevExpress UI controls abstract the complexities of native mobile development and deliver unmatched performance, usability, and functionality."/>
 
@@ -16,18 +16,18 @@
 
             <Slider Minimum="0" Maximum="100" Value="50" />
 
-            <HorizontalStackLayout Spacing="16" Padding="16">
+            <dx:DXStackLayout Orientation="Horizontal" ItemSpacing="16" Padding="16">
                 <Switch IsToggled="True" />
                 <Switch IsToggled="True" IsEnabled="False"/>
-            </HorizontalStackLayout>
+            </dx:DXStackLayout>
 
-            <HorizontalStackLayout Spacing="16" Padding="16">
+            <dx:DXStackLayout Orientation="Horizontal" ItemSpacing="16" Padding="16">
                 <CheckBox IsChecked="True" />
                 <CheckBox IsChecked="True" IsEnabled="False" />
-            </HorizontalStackLayout>
+            </dx:DXStackLayout>
 
             <Button Margin="25,20,25,20" Text="Standard Button"/>
             <Button Margin="25,20,25,20" Text="Standard Disabled Button" IsEnabled="False"/>
-        </VerticalStackLayout>
+        </dx:DXStackLayout>
     </ScrollView>
 </ContentPage>
