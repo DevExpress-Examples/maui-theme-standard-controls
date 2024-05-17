@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # DevExpress .NET MAUI Controls - Apply Themes to Standard Controls
 
-DevExpress .NET MAUI Controls ship with 10 built-in color themes that are available in both dark and light variants. You can also apply these color themes to standard .NET MAUI Controls. This repository creates required styles and bind colors from DevExpress themes to properties of standard controls.
+DevExpress .NET MAUI Controls ship with 10 built-in color themes and is available in both dark and light variants. You can apply our color themes to standard .NET MAUI Controls. This repository creates necessary styles and binds colors from DevExpress .NET MAUI Themes to standard control properties.
 
 ![DevExpress .NET MAUI Controls - Color Themes](https://docs.devexpress.com/MAUI/images/themes/themes-overview_.png?v=23.2)
 
